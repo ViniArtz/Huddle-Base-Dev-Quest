@@ -1,0 +1,93 @@
+body {
+  max-width: 1440px;
+  background: url(../images/bg-desktop.svg) no-repeat;
+  background-color: #674baf;
+  background-size: cover;
+  font-family: "Poppins";
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* HEADER */
+.cabecalho {
+  display: flex;
+  margin: 0 140px;
+  height: 150px;
+}
+
+.cabecalho .logo {
+  width: 180px;
+}
+/* MAIN */
+.conteudo {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 100px;
+  gap: 20px;
+}
+
+.conteudo .imagem img {
+  width: 80vh;
+}
+
+.conteudo .registro {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  gap: 15px;
+}
+
+.conteudo .registro h2 {
+  text-align: start;
+  font-size: 2rem;
+  width: 400px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.conteudo .registro p {
+  color: #fff;
+  width: 500px;
+  text-align: start;
+}
+
+.conteudo .registro button {
+  color: #674baf;
+  background-color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  width: 180px;
+  height: 45px;
+  border-radius: 60px;
+  box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+}
+
+.conteudo .registro button:hover {
+  color: #fff;
+  background-color: #e882e8;
+}
+
+/* FOOTER */
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.footer a i {
+  padding: 10px;
+  color: #fff;
+  border: 2px #fff solid;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.footer a i:hover {
+  color: #e882e8;
+  border: 2px #e882e8 solid;
+  border-radius: 50%;
+}

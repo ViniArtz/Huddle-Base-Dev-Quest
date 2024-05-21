@@ -1,0 +1,47 @@
+@media (max-width:768px) {
+    body {
+        background: url(../images/bg-mobile.svg) no-repeat;
+        background-size: cover;
+        background-color: #674baf;
+    }
+    .cabecalho {
+        margin: 0 60px;
+    }
+    .conteudo {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .conteudo .imagem img {
+        width: 60vh;
+    }
+
+    .conteudo .registro {
+        align-items: center;
+        gap: 20px;
+    }
+
+    .conteudo .registro h2 {
+        text-align: center;
+    }
+
+    .conteudo .registro p{
+        width: 350px;
+        text-align: center;
+    }
+
+    .footer {
+        justify-content: center;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width:525px) {
+    .cabecalho {
+        margin: 0 40px;
+    }
+    .conteudo .imagem img {
+        width: 40vh;
+    }
+}
