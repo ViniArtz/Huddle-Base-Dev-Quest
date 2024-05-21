@@ -16,7 +16,7 @@
 
 ## Exemplo de Uso
 
-Página usada para encaminhar para o resgistro no site de Criação de Landing Pages.
+Página usada para encaminhar para o registro no site de Criação de Landing Pages.
 
 ## GITHUB
 
